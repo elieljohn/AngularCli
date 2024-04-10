@@ -9,7 +9,7 @@ import { LoggerService } from 'my-logger';
 export class AppComponent {
   title = 'angular-routing';
 
-  constructor(loggerService: LoggerService) {
-    loggerService.log("hello world");
+  constructor(private loggerService: LoggerService) {
+    this.loggerService.log("hello world");
   }
 }
