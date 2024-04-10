@@ -9,11 +9,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "paths": {
-      "my-logger": [
-        "./dist/my-logger"
-      ]
-    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
